@@ -14,7 +14,7 @@ def valid_ip(address):
         return False
 
  
-def check_ip(ipaddr):
+def check_ip_format(ipaddr):
     addr = ipaddr.strip().split('.') #以符号:[.]切割IP地址为一个列表
  
     #print addr
@@ -31,7 +31,7 @@ def main():
       print "Usage: %s 10.2.5.25 "%sys.argv[0]
       sys.exit(1)
   else:
-      retCode=check_ip(sys.argv[1]) #满足条件调用校验IP函数
+      retCode=check_ip_format(sys.argv[1]) #满足条件调用校验IP函数
   
   if retCode:
     sys.exit(0)
