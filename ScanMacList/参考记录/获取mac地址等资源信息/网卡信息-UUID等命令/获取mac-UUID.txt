@@ -1,0 +1,22 @@
+1.查看Linux网卡UUID和MAC地址---Linux命令
+http://blog.itpub.net/2317695/viewspace-2649125/
+  
+查看Linux网卡UUID和MAC地址---Linux命令
+
+
+场景：添加网卡后发现并没有自动生成对应的文件，以及克隆后并没有自动生成新的文件。
+
+查看网卡UUID：
+nmcli con show    或    nmcli con list
+
+查看网卡mac地址：
+nmcli dev show    或    nmcli dev list
+
+注：show用于7版本；list用于6版本；
+
+如不记得怎么使用nmcli，可以使用nmcli --help来查看这个命令如何使用，对于其他命令不会怎么使用也是这样操作。
+相关文件位置：
+/etc/sysconfig/network-scripts/ifcfg-eth0
+/etc/udev/rules.d/70-persistent-net.rules
+
+

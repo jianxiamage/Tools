@@ -1,0 +1,26 @@
+1.python中，获取设备网卡接口（ethx， mgmt）
+  https://blog.csdn.net/gymaisyl/article/details/90079992?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-7&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-7
+
+ls -l /sys/class/net/ | grep -v virtual | sed '1d' | awk 'BEGIN {FS="/"} {print $NF}'
+-----------------------------------------------------------------------
+在python中，想要获取linux设备网卡接口，并用列表进行保存
+
+def get_eth():
+    eth_list = []
+    os.system("ls -l /sys/class/net/ | grep -v virtual | sed '1d' | awk 'BEGIN {FS=\"/\"} {print $NF}' > eth.yaml")
+    try:
+        with open('./eth.yaml', "r") as f:
+            for line in f.readlines():
+                line = line.strip()
+                eth_list.append(line.lower())
+    except Exception as e:
+        print(e)
+        eth_list = []
+
+    print(eth_list)
+    return eth_list
+————————————————
+版权声明：本文为CSDN博主「csdn*」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/gymaisyl/java/article/details/90079992
+
+

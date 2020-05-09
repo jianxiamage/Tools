@@ -1,0 +1,66 @@
+1.获取网卡设备名：
+
+ls -l /sys/class/net/ | grep -v virtual | sed '1d' | awk 'BEGIN {FS="/"} {print $NF}'
+
+
+2.
+
+1.获取所有有(无)网卡型号
+方法一、ifconfig
+
+用法：ifconfig | grep <network_interface> | cut -d ':' -f 1
+Ubuntu
+
+root@ubuntu:~# ifconfig | grep enp| cut -d ':' -f 1
+enp2s0
+enp3s0
+
+CentOS
+
+[root@centos ~]# ifconfig | grep ens| cut -d ':' -f 1
+ens192
+
+    注意：Ubuntu 下有线网卡基本以 enp 开头，CentOS 以 ens 开头，无线网卡下 Ubuntu 以 wlp 开头
+
+方法二、ip a
+
+用法：ip a | grep <network_interface> | cut -d ':' -f 2 | awk '{print $1}' | grep <network_interface>
+Ubuntu
+
+root@ubuntu:~# ip a | grep enp | cut -d ':' -f 2 | awk '{print $1}' | grep enp
+enp2s0
+enp3s0
+
+CentOS
+
+[root@centos ~]# ip a | grep ens | cut -d ':' -f 2 | awk '{print $1}' | grep ens
+ens192
+
+方法三、ls /sys/class/net (推荐)
+
+用法：ls /sys/class/net | grep <network_interface>
+
+root@ubuntu:~# ls /sys/class/net | grep enp
+enp2s0
+enp3s0
+
+2.获取有(无)线网卡对应 Mac 地址
+
+用法：cat /sys/class/net/<network_interface>/address
+
+root@ubuntu:~# cat /sys/class/net/enp2s0/address
+f4:8e:38:ad:34:6d
+
+3.获取有(无)线网卡对应的 IP 地址
+
+用法：ifconfig <network_interface> | grep inet | grep -v inet6 | sed 's/^[ \t]*//g' | cut -d ' ' -f 2| awk '{print $1}'
+
+  
+root@ubuntu:~# ifconfig enp2s0 | grep inet | grep -v inet6 | sed 's/^[ \t]*//g' | cut -d ' ' -f 2| awk '{print $1}'
+192.168.81.208
+
+
+作者：Leif160519
+链接：https://hacpai.com/article/1569726916705
+来源：黑客派
+协议：CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/

@@ -1,0 +1,4 @@
+1.Python获取多网卡的IP地址的几种方法（Linux系统）
+  https://blog.csdn.net/yushuaigee/article/details/86682583
+
+  hostname -I

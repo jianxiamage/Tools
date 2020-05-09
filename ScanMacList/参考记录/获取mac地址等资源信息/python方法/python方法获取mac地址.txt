@@ -1,0 +1,123 @@
+1.https://blog.csdn.net/weixin_30755393/article/details/97657782
+  import uuid
+
+def get_mac_address():
+
+　　node = uuid.getnode()
+
+　　mac = uuid.UUID(int = node).hex[-12:]
+　　return mac
+
+
+2.python获取本机IP、MAC地址
+  https://blog.csdn.net/qq_41323073/java/article/details/89501125
+//获取本机ip
+import socket
+ 
+def get_host_ip():
+    """
+    查询本机ip地址
+    """
+    try:
+        s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+        s.connect(('8.8.8.8',80))
+        ip=s.getsockname()[0]
+    finally:
+        s.close()
+ 
+    return ip
+ 
+ 
+if __name__ == '__main__':
+    print(get_host_ip())
+
+//获取本机mac
+
+import uuid
+def get_mac_address(): 
+    mac=uuid.UUID(int = uuid.getnode()).hex[-12:] 
+    return ":".join([mac[e:e+2] for e in range(0,11,2)])
+ 
+#Run
+get_mac_address()
+————————————————
+版权声明：本文为CSDN博主「Dcpnet」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_41323073/java/article/details/89501125
+
+
+3.python获取mac
+https://blog.csdn.net/MSJ_CS/article/details/37592885?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-25&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-25
+一个简单的方法：
+
+    >>> import uuid
+    >>> node = uuid.getnode()
+    >>> mac = uuid.UUID(int=node)
+    >>> addr = mac.hex[-12:]
+    >>> addr
+
+
+
+但是对于多网卡呢？下面的可以用：
+法一：
+
+    >>> import os
+    >>> mac = os.popen("/sbin/ifconfig | grep 'br0'|awk '{print $5}'").read()
+    >>> mac
+    '00:1b:cd:03:10:ac\n'
+    >>> mac = mac[mac.find(':')+1:mac.find('\n')]
+    >>> mac
+    '1b:cd:03:10:ac'
+    >>> mac = string.replace(mac,":","",4)
+    '1bcd0310ac'
+
+
+法二：给出interface字符串形式，如interface = 'eth0'
+
+    import fcntl
+    import struct
+    import  socket
+    def get_interface_mac(interface):
+        DEVICE_NAME_LEN = 15
+        MAC_START = 18
+        MAC_END = 24
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        info = fcntl.ioctl(s.fileno(), 0x8927,
+                           struct.pack('256s', interface[:DEVICE_NAME_LEN]))
+        return ''.join(['%02x:' % ord(char)
+                        for char in info[MAC_START:MAC_END]])[:-1]
+————————————————
+版权声明：本文为CSDN博主「__murphy__」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/MSJ_CS/java/article/details/37592885
+
+4.用python在linux下获取网卡地址
+
+使用一个第三方库，名为psutil
+
+代码如下：
+
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+
+import psutil
+
+def get_netcard():
+　　netcard_info = []
+　　info = psutil.net_if_addrs()
+　　for k,v in info.items():
+　　　　# print "k is {0} and v is {1}".format(k,v)
+　　　　for item in v:
+　　　　　　if item[0] == 2 and not item[1] == '127.0.0.1':
+　　　　　　　　netcard_info.append(item[1])
+　　return netcard_info
+
+
+if __name__ == '__main__':
+　　print get_netcard()
+
+
+转载于:https://www.cnblogs.com/Allen-ling/p/6186694.html
+
+5.Python获取网卡信息（名称、MAC、IP、网关等）
+  https://blog.csdn.net/weixin_33860528/article/details/85091950
+
+
