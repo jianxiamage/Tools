@@ -1,0 +1,1000 @@
+  119  ls
+  120  rm -rf spec200*.csv
+  121  ls
+  122  rm -rf stream_*.csv
+  123  ls
+  124  ll
+  125  rm -f SpecJvm2008.csv 
+  126  ls
+  127  ll
+  128  vim perform_iozone_2csv.py
+  129  vim iozone.csv 
+  130  vim perform_iozone_2csv.py
+  131  ls
+  132  vim perform_iozone_2csv.py 
+  133  vim perform_iozone.py 
+  134  vim iozone.csv 
+  135  vim perform_iozone_2csv.py 
+  136  python perform_iozone_2csv.py 
+  137  vim iozone.csv 
+  138  vim perform_iozone.py 
+  139  python perform_iozone.py 
+  140  vim perform_iozone.py 
+  141  python perform_iozone.py 
+  142  vim perform_iozone.py 
+  143  vim perform_iozone_2csv.py 
+  144  python perform_iozone_2csv.py 
+  145  vim perform_iozone_2csv.py 
+  146  python perform_iozone_2csv.py OS 7A
+  147  vim iozone.csv 
+  148  vim perform_iozone_2csv.py 
+  149  python perform_iozone_2csv.py OS 7A
+  150  vim iozone.csv 
+  151  vim perform_iozone_2csv.py 
+  152  python perform_iozone_2csv.py OS_7A
+  153  vim iozone.csv 
+  154  vim perform_iozone.py 
+  155  python perform_iozone_2csv.py OS_7A
+  156  python perform_iozone.py 
+  157  ls
+  158  pwd
+  159  mv vim Merge_Excel_Select.sh database_iozone.sh
+  160  mv  Merge_Excel_Select.sh database_iozone.sh
+  161  vim database_iozone.sh 
+  162  pwd
+  163  mv make_Ini_Points_all.sh score2database_all.sh 
+  164  vim score2database_all.sh 
+  165  mv score2database_all.sh performScore2csv_all.sh 
+  166  vim performScore2csv_all.sh 
+  167  mv Make_Result_Ini_Multi_Select.sh Make_score2csv_Multi.sh
+  168  vim Make_score2csv_Multi.sh 
+  169  mv performScore2csv_all.sh perform_Ini2csv_all.sh
+  170  vim Make_score2csv_Multi.sh 
+  171  vim perform_Ini2csv_all.sh 
+  172  vim perform_iozone_2csv.py 
+  173  vim perform_Ini2csv_all.sh 
+  174  vim perform_iozone_2csv.py 
+  175  vim Make_score2csv_Multi.sh 
+  176  vim perform_Ini2csv_all.sh 
+  177  vim Make_score2csv_Multi.sh 
+  178  cp perform_Ini2csv_all.sh get_csvFile_iozone.sh
+  179  vim get_csvFile_iozone.sh 
+  180  vim Make_score2csv_Multi.sh 
+  181  cp Make_score2csv_Multi.sh get_csvFile_iozone.sh 
+  182  vim get_csvFile_iozone.sh 
+  183  pwd
+  184  vim merge_Excel_Case_all.sh 
+  185  ll get_csvFile_iozone.sh 
+  186  ls get_csvFile_iozone.sh 
+  187  ls Make_score2csv_Multi.sh 
+  188  ls merge_Excel_Case_all.sh 
+  189  vim Make_score2csv_Multi.sh 
+  190  vim perform_Ini2csv_all.sh 
+  191  vim get_csvFile_iozone.sh 
+  192  mv merge_Excel_Case_all.sh get_csvFile_iozone.sh 
+  193  vim get_csvFile_iozone.sh 
+  194  ls perform_iozone_2csv.py 
+  195  vim get_csvFile_iozone.sh 
+  196  pwd
+  197  pip list
+  198  vim get_csvFile_iozone.sh 
+  199  pwd
+  200  python perform_iozone.py 
+  201  vim iozone.csv 
+  202  vim perform_iozone.py 
+  203  cp ../csv2mysql/perform_iozone.py .
+  204  vim perform_iozone.py 
+  205  cp perform_iozone.py bak_perform_iozone.py 
+  206  vim perform_iozone.py 
+  207  vim dbclass_demo.py
+  208  vim perform_iozone.py 
+  209  vim dbclass_demo.py
+  210  python dbclass_demo.py 
+  211  vim dbclass_demo.py +36
+  212  python dbclass_demo.py 
+  213  vim dbclass_demo.py +87
+  214  python dbclass_demo.py 
+  215  vim dbclass_demo.py +87
+  216  python dbclass_demo.py 
+  217  vim dbclass_demo.py +126
+  218  python dbclass_demo.py 
+  219  vim dbclass_demo.py +126
+  220  python dbclass_demo.py 
+  221  vim dbclass_demo.py +126
+  222  python dbclass_demo.py 
+  223  vim dbclass_demo.py +126
+  224  python dbclass_demo.py 
+  225  vim dbclass_demo.py +126
+  226  python dbclass_demo.py 
+  227  vim dbclass_demo.py +126
+  228  python dbclass_demo.py 
+  229  cp dbclass_demo.py perform_iozone.py 
+  230  python perform_iozone.py 
+  231  vim perform_iozone.py 
+  232  python perform_iozone.py 
+  233  vim perform_iozone.py 
+  234  python perform_iozone.py 
+  235  python perform_iozone.py OS 7A iozone PC_7A_OS
+  236  ls
+  237  ls get_Ini2csv_all.sh 
+  238  python iozone_csvFile_get.sh 
+  239  python perform_iozone_2csv.py 
+  240  python perform_iozone_2csv.py OS 7A iozone PC_7A_OS
+  241  sh iozone_csvFile_get.sh 
+  242  perform_iozone_2csv.py OS 7A iozone PC_7A_OS
+  243  python perform_iozone_2csv.py OS 7A iozone PC_7A_OS
+  244  vim perform_stream_1core_2csv.py 
+  245  cp perform_iozone_2csv.py perform_stream_1core_2csv_new.py 
+  246  vim perform_stream_1core_2csv_new.py 
+  247  ls ../csv2mysql/stream_*.csv
+  248  vim perform_stream_1core_2csv_new.py 
+  249  vim perform_iozone_2csv.py 
+  250  vim perform_stream_1core_2csv.py 
+  251  vim perform_stream_1core_2csv_new.py 
+  252  python perform_stream_1core_2csv_new.py OS 7A stream_1core PC_7A_OS
+  253  mv perform_stream_1core_2csv_new.py perform_stream_1core_2csv.py 
+  254  cp perform_iozone.py perform_stream_1core_new.py 
+  255  vim perform_stream_1core_new.py 
+  256  python perform_stream_1core_new.py OS 7A stream_1core PC_7A_OS
+  257  vim perform_stream_1core_new.py 
+  258  python perform_stream_1core_new.py OS 7A stream_1core PC_7A_OS
+  259  ls |grep new
+  260  vim perform_stream_1core_new.py 
+  261  vim perform_stream_1core_2csv.py 
+  262  python perform_stream_ncore_2csv_new.py OS 7A stream_ncore PC_7A_OS
+  263  vim perform_SpecJvm2008_2csv_new.py
+  264  python perform_SpecJvm2008_2csv_new.py OS 7A SpecJvm2008 C_7A_OS
+  265  vim perform_SpecJvm2008_2csv_new.py
+  266  vim perform_SpecJvm2008_2csv.py 
+  267  vim perform_SpecJvm2008_2csv_new.py
+  268  python perform_SpecJvm2008_2csv_new.py OS 7A SpecJvm2008 C_7A_OS
+  269  python perform_SpecJvm2008_2csv_new.py OS 7A SpecJvm2008 PC_7A_OS
+  270  mv perform_SpecJvm2008_2csv_new.py perform_SpecJvm2008_2csv.py 
+  271  cp iozone_csvFile_get.sh SpecJvm2008_csvFile_get.sh 
+  272  vim SpecJvm2008_csvFile_get.sh 
+  273  vim perform_SpecJvm2008_new.py
+  274  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  275  vim perform_SpecJvm2008_new.py
+  276  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  277  vim perform_SpecJvm2008_new.py
+  278  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  279  vim perform_SpecJvm2008_new.py
+  280  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  281  vim perform_SpecJvm2008_new.py
+  282  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  283  vim perform_SpecJvm2008_new.py
+  284  python perform_SpecJvm2008_new.py OS 7A SpecJvm2008 PC_7A_OS
+  285  vim perform_SpecJvm2008_new.py
+  286  vim get_Ini2csv_all.sh 
+  287  vim SpecJvm2008_csvFile_get.sh 
+  288  cp perform_SpecJvm2008_new.py perform_SpecJvm2008.py 
+  289  vim perform_SpecJvm2008_2csv.py 
+  290  vim get_Ini2csv_all.sh 
+  291  vim SpecJvm2008_csvFile_get.sh 
+  292  sh SpecJvm2008_csvFile_get.sh OS 7A SpecJvm2008
+  293  cp iozone_database.sh SpecJvm2008_database.sh 
+  294   SpecJvm2008_database.sh 
+  295  cp perform_stream_1core_2csv.py perform_spec2000_1core_CFP_2csv_new.py 
+  296  vim perform_spec2000_1core_CFP_2csv_new.py
+  297  python perform_spec2000_1core_CFP_2csv_new.py OS 7A spec2000-1core_CFP PC_7A_OS
+  298  mv perform_spec2000_1core_CFP_2csv_new.py perform_spec2000_1core_CFP_2csv.py
+  299  cp perform_spec2000_1core_CFP_2csv.py perform_spec2000_1core_CINT_2csv.py
+  300  vim perform_spec2000_1core_CINT_2csv.py
+  301  python perform_spec2000_1core_CINT_2csv_new.py OS 7A spec2000-1core_CINT PC_7A_OS
+  302  vim perform_spec2000_1core_CINT_2csv.py
+  303  python perform_spec2000_1core_CINT_2csv.py OS 7A spec2000-1core_CINT PC_7A_OS
+  304  vim get_Ini2csv_all.sh 
+  305  vim spec2000-1core_csvFile_get.sh
+  306  cp stream_csvFile_get.sh spec2000-1core_csvFile_get.sh
+  307  vim spec2000-1core_csvFile_get.sh
+  308  cp stream_1core_csvFile_get.sh spec2000-1core_CFP_csvFile_get.sh
+  309  vim spec2000-1core_CFP_csvFile_get.sh
+  310  ls perform_spec2000_1core_CFP_2csv.py 
+  311  vim spec2000-1core_CFP_csvFile_get.sh
+  312  cp spec2000-1core_CFP_csvFile_get.sh spec2000-1core_CINT_csvFile_get.sh
+  313  vim spec2000-1core_CINT_csvFile_get.sh
+  314  vim get_Ini2csv_all.sh 
+  315  vim spec2000-1core_csvFile_get.sh
+  316  vim spec2000-1core_CFP_csvFile_get.sh
+  317  vim spec2000-1core_csvFile_get.sh
+  318  sh spec2000-1core_csvFile_get.sh OS 7A 
+  319  sh spec2000-1core_csvFile_get.sh OS 7A spec2000-1core
+  320  vim perform_spec2000_1core_CFP.py 
+  321  cp perform_stream_1core.py perform_spec2000_1core_CFP_new.py
+  322  vim perform_spec2000_1core_CFP_new.py
+  323  python perform_spec2000_1core_CFP_new.py OS 7A spec2000-1core_CFP PC_7A_OS
+  324  vim perform_spec2000_1core_CFP_new.py
+  325  python perform_spec2000_1core_CFP_new.py OS 7A spec2000-1core_CFP PC_7A_OS
+  326  mv perform_spec2000_1core_CFP_new.py perform_spec2000_1core_CFP.py 
+  327  cp perform_spec2000_1core_CFP.py perform_spec2000_1core_CINT_new.py
+  328  vim perform_spec2000_1core_CINT_new.py
+  329  python perform_spec2000_1core_CINT_new.py OS 7A spec2000-1core_CINT PC_7A_OS
+  330  vim perform_spec2000_1core_CINT_new.py
+  331  python perform_spec2000_1core_CINT_new.py OS 7A spec2000-1core_CINT PC_7A_OS
+  332  vim write_database_all.sh 
+  333  cp stream_database.sh spec2000-1core_database.sh
+  334  vim spec2000-1core_database.sh 
+  335  cp stream_csvFile_get.sh spec2000-1core_database.sh
+  336  vim spec2000-1core_database.sh 
+  337  vim spec2000-1core_CFP_database.sh
+  338  cp stream_database.sh spec2000-1core_CFP_database.sh
+  339  vim spec2000-1core_CFP_database.sh
+  340  cp stream_1core_database.sh spec2000-1core_CFP_database.sh
+  341  vim spec2000-1core_CFP_database.sh
+  342  cp spec2000-1core_CFP_database.sh spec2000-1core_CINT_database.sh
+  343  vim spec2000-1core_CINT_database.sh
+  344  vim spec2000-1core_database.sh 
+  345  vim spec2000-1core_CFP_database.sh
+  346  vim spec2000-1core_CINT_database.sh
+  347  python perform_spec2000_1core_CFP.py OS 7A spec2000-1core_CFP PC_7A_OS
+  348  vim perform_spec2000_ncore_CFP_new.py 
+  349  mv perform_spec2000_ncore_CFP_new.py perform_spec2000_ncore_CFP.py 
+  350  vim perform_spec2000_ncore_CFP.py 
+  351  vim perform_spec2000_ncore_CINT.py 
+  352  ls |grep new
+  353  cp perform_spec2000_1core_CINT.py  perform_spec2000_ncore_CINT_new.py
+  354  vim perform_spec2000_ncore_CINT_new.py
+  355  cp perform_spec2000_ncore_CINT_new.py perform_spec2000_ncore_CINT.py 
+  356  vim perform_spec2006_1core_CFP_2csv_new.py
+  357  cp perform_spec2006_1core_CFP_2csv_new.py perform_spec2006_1core_CFP_2csv.py 
+  358  vim perform_spec2006_1core_CFP_2csv.py
+  359  vim perform_spec2000_1core_CFP_2csv.py
+  360  cp perform_spec2000_1core_CFP_2csv.py perform_spec2006_1core_CFP_2csv.py
+  361  vim perform_spec2006_1core_CFP_2csv.py
+  362  cp perform_spec2000_1core_CFP.py perform_spec2006_1core_CFP_new.py
+  363  vim perform_spec2006_1core_CFP_new.py
+  364  cp perform_spec2006_1core_CFP_new.py perform_spec2006_1core_CFP.py 
+  365  ls |grep new
+  366  rm -f perform_spec2000_ncore_CINT_new.py
+  367  rm -f perform_spec2006_1core_CFP_2csv_new.py
+  368  rm -f perform_spec2006_1core_CFP_new.py
+  369  cp perform_spec2000_1core_CINT_2csv.py perform_spec2006_1core_CINT_2csv_new.py
+  370  vim perform_spec2006_1core_CINT_2csv_new.py
+  371  mv perform_spec2006_1core_CINT_2csv_new.py perform_spec2006_1core_CINT_2csv.py 
+  372  cp perform_spec2000_1core_CINT.py perform_spec2006_1core_CINT_new.py 
+  373  vim perform_spec2006_1core_CINT_new.py
+  374  cp perform_spec2006_1core_CINT_new.py perform_spec2006_1core_CINT.py 
+  375  vim perform_spec2006_ncore_CFP_2csv_new.py
+  376  mv perform_spec2006_ncore_CFP_2csv_new.py perform_spec2006_ncore_CFP_2csv.py 
+  377  cp perform_spec2000_ncore_CFP.py perform_spec2006_ncore_CFP_new.py 
+  378  vim perform_spec2006_ncore_CFP_new.py
+  379  cp perform_spec2006_1core_CFP.py perform_spec2006_ncore_CFP_new.py 
+  380  vim perform_spec2006_ncore_CFP_new.py
+  381  cp perform_spec2006_ncore_CFP_new.py perform_spec2006_ncore_CFP.py 
+  382  vim perform_spec2006_ncore_CINT_new.py
+  383  mv perform_spec2006_ncore_CINT_new.py perform_spec2006_ncore_CINT.py 
+  384  vim perform_UnixBench_1thread_2csv_new.py
+  385  cp perform_UnixBench_1thread_2csv.py perform_UnixBench_1thread_2csv_new.py
+  386  ls |grep new
+  387  vim perform_UnixBench_1thread_2csv_new.py
+  388  mv perform_UnixBench_1thread_2csv.py perform_UnixBench_1thread_2csv_bak.py
+  389  mv perform_UnixBench_1thread_2csv_new.py perform_UnixBench_1thread_2csv.py
+  390  ls |grep UnixBench
+  391  ls |grep UnixBench |grep 1th
+  392  vim UnixBench_1thread_csvFile_get.sh 
+  393  ll UnixBench_1thread_csvFile_get.sh 
+  394  sh UnixBench_1thread_csvFile_get.sh 
+  395  sh UnixBench_1thread_csvFile_get.sh OS 7A UnixBench_1thread
+  396  vim perform_stream_1core_2csv.py 
+  397  vim perform_UnixBench_1thread_new.py 
+  398  cp perform_UnixBench_1thread_new.py perform_UnixBench_1thread.py
+  399  ls |grep UnixBench |grep .sh
+  400  cp stream_1core_database.sh UnixBench_1thread_database.sh
+  401  vim UnixBench_1thread_database.sh
+  402  vim perform_UnixBench_1thread.py
+  403  vim UnixBench_1thread_database.sh
+  404  vim stream_1core_database.sh 
+  405  vcd /home/loongson/
+  406  ll
+  407  cd /home/
+  408  find . -name "工作文档_马中征"
+  409  cd gerritos-技术文档目录/
+  410  ll
+  411  cd OS-Tech-Doc/
+  412  ll
+  413  git status
+  414  git pull
+  415  cat  ~/.ssh/id_rsa.pub
+  416  pwd
+  417  cd /home/loongson/
+  418  ll
+  419  cd chenhaoxuan/
+  420  ll
+  421  mkdir 正则表达式
+  422  cd 正则表达式/
+  423  ll
+  424  vim get_str.py
+  425  python get_str.py 
+  426  vim get_str.py
+  427  python get_str.py 
+  428  vim get_str.py
+  429  pwd
+  430  cd
+  431  git clone ssh://mazhongzheng@gerritos.loongnix.org:29418/server/java && scp -p -P 29418 mazhongzheng@gerritos.loongnix.org:hooks/commit-msg java/.git/hooks/
+  432  cd java/
+  433  git checkout lns7
+  434  sftp loongson@10.20.42.190
+  435  mkdir .metadata
+  436  ll
+  437  ls -al
+  438  rm .metadata/ -fr
+  439  touch .metadata
+  440  ls -al
+  441  git add .
+  442  git commit -m "add files:.gitignore,.run.sh,.metadata"
+  443  git push origin HEAD:refs/for/lns7
+  444  pwd
+  445  ping 10.40.57.2
+  446  ping 10.40.57.3
+  447  ping 10.40.57.4
+  448  ping 10.40.57.5
+  449  ping 10.40.57.6
+  450  ping 10.40.57.7
+  451  ping 10.40.57.5
+  452  ping 10.40.57.8
+  453  ping 10.40.57.9
+  454  ping 10.40.57.8
+  455  ping 10.40.57.9
+  456  ping 10.40.57.10
+  457  ping 10.40.57.9
+  458  ping 10.40.57.8
+  459  ping 10.40.57.11
+  460  ping 10.40.57.12
+  461  ping 10.40.57.13
+  462  ping 10.40.57.14
+  463  ping 10.40.57.15
+  464  ping 10.40.57.16
+  465  ping 10.40.57.17
+  466  ping 10.40.57.18
+  467  ping 10.40.57.19
+  468  ping 10.40.57.20
+  469  ping 10.40.57.21
+  470  ping 10.40.57.22
+  471  ping 10.40.57.26
+  472  ping 10.40.57.27
+  473  ping 10.40.57.28
+  474  ssh root@10.40.57.3
+  475  ifconfig|grep inet
+  476  ssh root@10.40.57.7
+  477  vim .ssh/known_hosts 
+  478  exit
+  479  cd /var/lib/dhclient/
+  480  ls
+  481  ls -all
+  482  exit
+  483  cd gerritOS/
+  484  ll
+  485  cd tmp/
+  486  ll
+  487  ll -all
+  488  cd ..
+  489  ll
+  490  history > history.txt
+  491  vim history.txt 
+  492  ls
+  493  ped
+  494  pwd
+  495  vim iso_up2_tftp.sh 
+  496  sh iso_up2_tftp.sh 
+  497  ls Loongnix-Server-1.7-2004-RC11.iso 
+  498  ll Loongnix-Server-1.7-2004-RC11.iso 
+  499  cp iso_up2_tftp.sh upISO_tftp.sh 
+  500  vim upISO_tftp.sh 
+  501  sh upISO_tftp.sh 
+  502  vim upISO_tftp.sh 
+  503  cd Loongnix-server-1.7/
+  504  ll
+  505  vim boot.catalog 
+  506  ll
+  507  cd ..
+  508  vim upISO_tftp.sh 
+  509  pwd
+  510  cd   /home/code-autotest-20200217/kvm-testsuite/kernel_os_kvm-test
+  511  ls
+  512  git status
+  513  git pull
+  514  vim function-gcc-opt.sh 
+  515  git diff
+  516  cd ..
+  517  git status
+  518  git add .
+  519  git commit -m "Added parameter for the test case of gcc"
+  520  git push origin HEAD:refs/for/autotest
+  521  cd kernel_os_kvm-test/
+  522  vim InitTestEnv.sh 
+  523  vim make_os_info.sh 
+  524  git status
+  525  git diff
+  526  git add .
+  527  git commit -m "Modified the os info for buildstamp is changed"
+  528  git push origin HEAD:refs/for/autotest
+  529  pwd
+  530  cd /home/loongson/
+  531  ls
+  532  cd /home/code_TestResult/os-tools/TestResult_Project/Rsync_Tool
+  533  ls
+  534  cd ..
+  535  ls
+  536  ll
+  537  cd TestReport/
+  538  ls
+  539  cd TestReport_OS_7A
+  540  ls
+  541  cp ../../Init_Env/HTMLTestRunnerCN.py 
+  542  cp ../../Init_Env/HTMLTestRunnerCN.py .
+  543  ls
+  544  vim HTMLTestRunnerCN.py 
+  545  pwd
+  546  ls
+  547  ll
+  548  cd ..
+  549  ll
+  550  git status
+  551  git checkout . && git clean -xdf
+  552  git status
+  553  git pull
+  554  sh Env_Init.sh 
+  555  git status
+  556  cd Rsync_Tool/
+  557  sh rsync_testFiles.sh 
+  558  cd ..
+  559  cd Rsync_Log/
+  560  sh Rsync_Log_Multi.sh OS 7A
+  561  sh Rsync_Log_Multi.sh OS 2K
+  562  sh Rsync_Log_Multi.sh OS 7A_2way
+  563  cd ..
+  564  sh Result_Collection.sh OS 7A
+  565  vim Result_Collection.sh 
+  566  cd Backup_Tool/
+  567  ls
+  568  sh BackUp_History.sh OS 7A
+  569  cd ..
+  570  ll
+  571  vim Result_Collection.sh 
+  572  cd TestReport/
+  573  ll
+  574  sh Gain_TestReport_Select.sh 
+  575  sh Gain_TestReport_Select.sh OS 7A
+  576  sh Gain_TestReport_Select.sh OS 7A_2way
+  577  cd ..
+  578  sh Result_Collection.sh OS 7A_2way
+  579  cd TestReport/
+  580  cd ..
+  581  vim Result_Collection.sh 
+  582  cd -
+  583  ll
+  584  sh Gain_TestReport_Select.sh OS 7A
+  585  grep -rn "Kernel_Version" ./
+  586  grep -rn "Main" ./
+  587  cd ..
+  588  cd -
+  589  sh Gain_TestReport_Select.sh OS 7A_2way
+  590  cd TestReport_OS_7A
+  591  ls
+  592  ll
+  593  vim ../../Init_Env/HTMLTestRunnerCN.py 
+  594  cd ..
+  595  cd -
+  596  ll
+  597  sh Gain_TestReport_Select.sh OS 7A
+  598  cd ..
+  599  sh Result_Collection.sh OS 7A
+  600  cd TestReport/
+  601  sh Gain_TestReport_Select.sh OS 7A
+  602  echo $?
+  603  vim Gain_TestReport_Select.sh 
+  604  sh Gain_TestReport_opt.sh 
+  605  vim Gain_TestReport_opt.sh 
+  606  cd TestReport_OS_7A
+  607  ls
+  608  ll
+  609  vim create_report_env.sh 
+  610  sh create_report_env.sh 
+  611  echo $?
+  612  vim create_report_env.sh 
+  613  python result_simple.py 
+  614  vim create_report_env.sh 
+  615  git status
+  616  cd ..
+  617  git status
+  618  ls
+  619  cd TestReport/
+  620  ls
+  621  cd TestReport_OS_7A
+  622  ls
+  623  ll
+  624  vim create_report_env.sh 
+  625  sh create_report_env.sh 
+  626  vim create_report_env.sh 
+  627  vim result_simple.py 
+  628  sh create_report_env.sh 
+  629  vim result_simple.py 
+  630  cd ..
+  631  git status
+  632  git checkout . && git clean -xdf
+  633  gi status
+  634  git status
+  635  pwd
+  636  cd chenhaoxuan/
+  637  ls
+  638  mkdir 测试网页设计
+  639  cd 测试网页设计/
+  640  ls
+  641  vim index.html
+  642  cp index.html /Results/
+  643  lftp 10.2.5.21
+  644  vim ip_list_OS_7A_2way.ini 
+  645  lftp 10.2.5.21
+  646  vim ip_list_OS_7A.ini 
+  647  lftp 10.2.5.21
+  648  vim ip_list_OS_2K.ini 
+  649  pwd
+  650  ls
+  651  cd /Results/
+  652  ls
+  653  mv index.html TestReport.html
+  654  ls
+  655  vim TestReport.html 
+  656  cp TestReport.html Index.html
+  657  vim Index.html 
+  658  mkdir HTML
+  659  mv TestReport.html HTML/
+  660  cp HTML/TestReport.html .
+  661  ls
+  662  scp TestReport.html root@10.2.5.160:/Results/
+  663  vim TestReport.html 
+  664  scp TestReport.html root@10.2.5.160:/Results/
+  665  vim Index.html 
+  666  scp Index.html root@10.2.5.160:/Results/
+  667  vim Index.html 
+  668  rm -rf HTML/
+  669  ls
+  670  vim Index.html 
+  671  vim new_Index.html
+  672  vim Index.html 
+  673  ls
+  674  vim new_Index.html 
+  675  vim Index.html 
+  676  vim new_Index.html 
+  677  vim Index.html 
+  678  vim new_Index.html 
+  679  vim Index.html 
+  680  vim new_Index.html 
+  681  vim Index.html 
+  682  vim TestReport.html 
+  683  vim Index.html 
+  684  vim TestReport.html 
+  685  vim Index.html 
+  686  vim TestReport.html 
+  687  vim new_Index.html 
+  688  vim Index.html 
+  689  vim new_Index.html 
+  690  vim Index.html 
+  691  vim new_Index.html 
+  692  vim TestReport.html 
+  693  vim new_Index.html 
+  694  vim Index.html 
+  695  cp Index.html old_Index.html 
+  696  mv new_Index.html Index.html 
+  697  scp Index.html old_Index.html root@10.2.5.160
+  698  scp Index.html old_Index.html root@10.2.5.160:/Results/
+  699  pwd
+  700  ls
+  701  cd /AutoTest
+  702  ls
+  703  rm -rf NodeState_Dir/
+  704  rm -rf TestLog_Dir/
+  705  cd autotest_result/
+  706  ll
+  707  rm -rf *
+  708  ll
+  709  cd ..
+  710  ls
+  711  du -sh *
+  712  cd /data/OS/7A
+  713  ls
+  714  ll
+  715  cd /Results/
+  716  ll
+  717  cd Server/
+  718  ls
+  719  cd ..
+  720  ll
+  721  cd PC/
+  722  ls
+  723  cd 7A
+  724  ls
+  725  cd OS/
+  726  ls
+  727  ll
+  728  pwd
+  729  cd /data/OS/
+  730  ls
+  731  cd 7A
+  732  ls
+  733  ll
+  734  pwd
+  735  cd ..
+  736  ls
+  737  cd 7A_2way/
+  738  ll
+  739  pwd
+  740  ls
+  741  cd Detail/OSInfo/
+  742  ll
+  743  cd ping/
+  744  ll
+  745  cd ..
+  746  cd 7A
+  747  ls
+  748  cd Detail/
+  749  ll
+  750  cd OSInfo/
+  751  ll
+  752  cd ping/
+  753  ll
+  754  pwd
+  755  cd ..
+  756  rm -rf *
+  757  ll
+  758  cd ..
+  759  pwd
+  760  cd /data/OS/2K/Detail/
+  761  cd OSInfo/
+  762  rm -rf *
+  763  pwd
+  764  cd /data/OS/7A
+  765  ls
+  766  ll
+  767  cd Detail/OSInfo/
+  768  ll
+  769  cd ping/
+  770  ll
+  771  vim Node1_10.40.51.199.ini 
+  772  cd /Results/
+  773  ls
+  774  cd Server/
+  775  ls
+  776  cd 7A_2way/
+  777  ls
+  778  cd OS/
+  779  ls
+  780  ll
+  781  cd Detail/
+  782  ls
+  783  pwd
+  784  cd OSInfo/
+  785  ls
+  786  cd ping/
+  787  ls
+  788  pwd
+  789  ll
+  790  cd ..
+  791  ll
+  792  cd ..
+  793  ll
+  794  cd ..
+  795  ls
+  796  cd PC/7A/
+  797  ls
+  798  cd OS/
+  799  ls
+  800  cd Detail/OSInfo/
+  801  ll
+  802  cd ping/
+  803  ll
+  804  cd ..
+  805  cd OSInfo/
+  806  rm -rf *
+  807  pwd
+  808  cd /Results/PC/2K/OS/Detail/
+  809  cd OSInfo/
+  810  rm -rf *
+  811  ll
+  812  cd ..
+  813  cd /home/loongson/
+  814  ls
+  815  cd /home/loongson/loongnix-testsuite/
+  816  ls
+  817  vim env.sh 
+  818  cd /home/loongson/
+  819  ls
+  820  exit
+  821  cd /home/loongson/
+  822  ls
+  823  ssh root@10.40.51.199
+  824  ssh root@10.40.51.144
+  825  ssh root@10.40.51.151
+  826  ssh root@10.40.51.12
+  827  ssh root@10.40.51.154
+  828  ssh root@10.40.51.170
+  829  ssh root@10.40.51.161
+  830  ssh root@10.40.51.19
+  831  ssh root@10.40.51.20
+  832  ssh root@10.40.51.21
+  833  ssh root@10.40.51.22
+  834  ssh root@10.40.51.134
+  835  ssh root@10.40.51.130
+  836  ssh root@10.40.51.195
+  837  ssh root@10.40.51.196
+  838  ssh root@10.40.57.26
+  839  ssh root@10.40.57.26
+  840  ssh root@10.40.57.27
+  841  ssh root@10.40.57.28
+  842  ssh root@10.40.57.26
+  843  ssh root@10.40.57.27
+  844  ssh root@10.40.51.199
+  845  ssh root@10.40.51.170
+  846  cd   /home/code_TestResult/os-tools/TestResult_Project
+  847  ls
+  848  cd Init_Env/
+  849  ls
+  850  vim HTMLTestRunnerCN.py 
+  851  pwd
+  852  git status
+  853  pwd
+  854  cd ..
+  855  sh Env_Init.sh 
+  856  crontab -l
+  857  ll
+  858  cd Rsync_Tool/
+  859  sh rsync_testFiles.sh 
+  860  cd ..
+  861  cd Rsync_Log/
+  862  sh Rsync_Log_Multi.sh OS 7A_2way
+  863  sh Rsync_Log_Multi.sh OS 7A
+  864  sh Rsync_Log_Multi.sh OS 2K
+  865  cd ..
+  866  ll
+  867  sh Result_Collection.sh OS 7A
+  868  cd HistorySearch/
+  869  ll
+  870  cd History_Case_Results/
+  871  ll
+  872  cd Make_History_Ini/
+  873  ll
+  874  vim get_ResultHistory.sh 
+  875  sh get_ResultHistory.sh 
+  876  sh get_ResultHistory.sh OS 7A PC SpecJvm2008
+  877  ll
+  878  vim get_ResultHistory.sh 
+  879  sh get_ResultHistory.sh OS 7A PC SpecJvm2008
+  880  vim /Results/PC/History_Bak/7A/OS/20200424-RC12.mips64/TestResults.ini
+  881  ls
+  882  ll
+  883  vim get_ResultHistory.sh 
+  884  sh get_ResultHistory.sh OS 7A PC SpecJvm2008
+  885  vim get_ResultHistory.sh 
+  886  sh get_ResultHistory.sh OS 7A PC SpecJvm2008
+  887  cd ..
+  888  pwd
+  889  git status
+  890  exit
+  891  ssh root@10.40.57.26
+  892  ssh root@10.40.57.27
+  893  ssh root@10.40.57.28
+  894  clear
+  895  cd /data/OS/7A
+  896  ls
+  897  vim TestResults.ini 
+  898  cd /Results/
+  899  ls
+  900  cd PC/
+  901  ls
+  902  cd 7A
+  903  cd OS/
+  904  ls
+  905  vim TestResults.ini 
+  906  cd ..
+  907  ll
+  908  cd ..
+  909  ll
+  910  cd History_Bak/
+  911  ls
+  912  cd 7A
+  913  ll
+  914  cd OS/
+  915  ls
+  916  ll
+  917  cd 20200424-RC12.mips64/
+  918  ls
+  919  vim TestResults.ini 
+  920  cd ../..
+  921  cd ..
+  922  ll
+  923  cd ..
+  924  ll
+  925  cd ..
+  926  ll
+  927  cd -
+  928  cd 7A/OS/
+  929  ls
+  930  ll
+  931  cd Search/
+  932  ls
+  933  ll
+  934  cd caseResults
+  935  ll
+  936  cd SpecJvm2008/
+  937  ll
+  938  vim SpecJvm2008_1.ini 
+  939  cd ..
+  940  ll
+  941  cd SpecJvm2008/
+  942  ll
+  943  cd ..
+  944  cd -
+  945  ll
+  946  pwd
+  947  cd /Results/PC/History_Bak/7A/OS/20200424-RC12.mips64
+  948  ll
+  949  vim TestResults.ini 
+  950  pwd
+  951  cd /Results/PC/
+  952  ls
+  953  cd 7A
+  954  ls
+  955  cd OS/
+  956  ls
+  957  cd Search/
+  958  ls
+  959  cd caseResults
+  960  ls
+  961  cd SpecJvm2008/
+  962  ls
+  963  vim SpecJvm2008_1.ini 
+  964  vim /Results/PC/History_Bak/7A/OS/20200424-RC12.mips64/TestResults.ini
+  965  ls
+  966  pwd
+  967  ifconfig|grep inet
+  968  pwd
+  969  ll
+  970  cd ..
+  971  ll
+  972  cd ..
+  973  ls
+  974  cd caseResultsHtml/
+  975  ll
+  976  cd SpecJvm2008/
+  977  ll
+  978  vim SpecJvm2008_1.html 
+  979  pwd
+  980  cd 
+  981  ssh root@10.40.57.27
+  982  ssh root@10.40.57.26
+  983  ssh root@10.40.51.130
+  984  cd /data/OS/7A_2way/Detail/
+  985  ls
+  986  cd LogInfo/
+  987  ls
+  988  cd spec2006-ncore/
+  989  ls
+  990  ll
+  991  vim Node1_10.40.57.11.txt 
+  992  cd /Results/Server/7A_2way/
+  993  ls
+  994  cd OS/
+  995  cd Detail/LogInfo/
+  996  ll
+  997  cd spec2006-ncore/
+  998  ls
+  999  ll
+ 1000  rm -rf *
+ 1001  ssh root@10.40.57.26
+ 1002  ssh root@10.40.57.27
+ 1003  ssh root@10.40.57.26
+ 1004  ls
+ 1005  cd chenhaoxuan/
+ 1006  ls
+ 1007  ll
+ 1008  ll -lt|head -n 4
+ 1009  cd 局域网扫描/
+ 1010  ls
+ 1011  vim hostList.txt 
+ 1012  vim python方法/get_mac.py 
+ 1013  cd python方法/
+ 1014  ll
+ 1015  python get_mac.py 
+ 1016  vim get_mac.py 
+ 1017  python get_mac.py 
+ 1018  vim get_mac.py 
+ 1019  python get_mac.py 
+ 1020  vim get_mac.py +13
+ 1021  python get_mac.py 
+ 1022  vim get_mac.py +13
+ 1023  python get_mac.py 
+ 1024  vim get_mac.py +13
+ 1025  ll
+ 1026  vim get_mac.py +13
+ 1027  python get_mac.py 
+ 1028  vim get_mac.py +13
+ 1029  python get_mac.py 
+ 1030  vim get_mac.py +13
+ 1031  ls
+ 1032  python get_mac.py 
+ 1033  clear
+ 1034  python get_mac.py 
+ 1035  vim get_mac.py +13
+ 1036  python get_mac.py 
+ 1037  vim get_mac.py +13
+ 1038  cd ..
+ 1039  ll
+ 1040  mkdir shell方法
+ 1041  cd shell方法/
+ 1042  ll
+ 1043  namp -sS 10.40.57.0/24  > SYN.txt
+ 1044  ifconfig|grep inet
+ 1045  nmap -sS 10.40.57.0/24  > SYN.txt
+ 1046  cd ..
+ 1047  cd python方法/
+ 1048  ll
+ 1049  vim arp.py
+ 1050  python arp.py 
+ 1051  vim arp.py
+ 1052  python arp.py 
+ 1053  vim arp.py
+ 1054  python arp.py 
+ 1055  vim arp.py
+ 1056  python arp.py 
+ 1057  vim arp.py
+ 1058  cd ..
+ 1059  cd shell方法/
+ 1060  ll
+ 1061  vim SYN.txt 
+ 1062  cd ..
+ 1063  ll
+ 1064  cd python方法/
+ 1065  ll
+ 1066  vim get_py_mac.py
+ 1067  vim get_mac.py 
+ 1068  vim get_py_mac.py
+ 1069  python get_py_mac.py 
+ 1070  ll
+ 1071  vim get_py_mac.py 
+ 1072  python get_py_mac.py 
+ 1073  vim get_py_mac.py 
+ 1074  python get_py_mac.py 
+ 1075  vim pic_mac.py
+ 1076  cp get_py_mac.py pic_mac.py
+ 1077  vim pic_mac.py 
+ 1078  python pic_mac.py 
+ 1079  vim pic_mac.py +7
+ 1080  python pic_mac.py 
+ 1081  vim pic_mac.py +7
+ 1082  python pic_mac.py 
+ 1083  vim pic_mac.py +7
+ 1084  python pic_mac.py 
+ 1085  vim pic_mac.py +7
+ 1086  python pic_mac.py 
+ 1087  vim pic_mac.py +7
+ 1088  python pic_mac.py 
+ 1089  vim pic_mac.py +7
+ 1090  python pic_mac.py 
+ 1091  vim pic_mac.py +7
+ 1092  arp -a
+ 1093  ll
+ 1094  arp -a
+ 1095  arp -n|awk '/^[1-9]/{print "arp -d  " $1}'|sh -x
+ 1096  arp -n
+ 1097  arp -a
+ 1098  vim /proc/net/arp 
+ 1099  arp -a
+ 1100  ping 10.40.57.2
+ 1101  arp -a
+ 1102  ll
+ 1103  vim uuid_mac.py
+ 1104  python uuid_mac.py 
+ 1105  ping 10.40.55.150
+ 1106  arp -a
+ 1107  ls
+ 1108  nmap -sn 10.20.42.44
+ 1109  ifconfig 
+ 1110  ls
+ 1111  ll
+ 1112  mkdri 临时测试——没啥用
+ 1113  mkdir 临时测试——没啥用
+ 1114  mv *.py 临时测试——没啥用/
+ 1115  ll
+ 1116  cd ../shell方法/
+ 1117  ll
+ 1118  history > history.txt

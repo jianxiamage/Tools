@@ -1,0 +1,173 @@
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2020-04-30 17:57 CST
+Nmap scan report for localhost (10.40.57.1)
+Host is up (0.00026s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap scan report for localhost (10.40.57.2)
+Host is up (0.00081s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.3
+Host is up (0.0016s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.4)
+Host is up (0.0022s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.5)
+Host is up (0.00019s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.6
+Host is up (0.00017s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.7)
+Host is up (0.00015s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.8)
+Host is up (0.00017s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.9
+Host is up (0.00018s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.10)
+Host is up (0.00013s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.11)
+Host is up (0.00014s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.12
+Host is up (0.00017s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.13)
+Host is up (0.00014s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.14)
+Host is up (0.00013s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.15
+Host is up (0.00018s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.16)
+Host is up (0.00015s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.17)
+Host is up (0.00033s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.18
+Host is up (0.00018s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.19)
+Host is up (0.00018s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.21)
+Host is up (0.00052s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.23
+Host is up (0.00039s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.24)
+Host is up (0.00033s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.25)
+Host is up (0.00016s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.26
+Host is up (0.00037s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.27)
+Host is up (0.00054s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for localhost (10.40.57.28)
+Host is up (0.00053s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.40.57.254
+Host is up (0.00092s latency).
+Not shown: 993 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+23/tcp    open     telnet
+50300/tcp filtered unknown
+50389/tcp filtered unknown
+50500/tcp filtered unknown
+50636/tcp filtered unknown
+50800/tcp filtered unknown
+
+Nmap done: 256 IP addresses (27 hosts up) scanned in 70.80 seconds
